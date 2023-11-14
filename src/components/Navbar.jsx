@@ -15,6 +15,8 @@ const Navbar = () => {
         <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
           Projects
         </NavLink>
+        <a href="./Shailesh's Resume(Front end Dev).pdf" download="Shailesh'sResume.pdf">Resume</a>
+
       </nav>
     </header>
   );

@@ -33,7 +33,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "JavaScript Mastery",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "shaileshkumaraimt@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -81,7 +81,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='w-full flex flex-col gap-7 mt-14'
+          className='w-full flex flex-col gap-7 mt-5'
         >
           <label className='text-black-500 font-semibold'>
             Name
@@ -135,6 +135,9 @@ const Contact = () => {
             {loading ? "Sending..." : "Submit"}
           </button>
         </form>
+        <p className="text-center">Or</p>
+        <a href="tel:+9191353499" className="text-center text-blue-500">Call us at +91 9161353499</a>
+
       </div>
 
       <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
